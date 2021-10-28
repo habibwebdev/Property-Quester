@@ -6,3 +6,4 @@
    1. npm install @material-ui/core
 3. Setup the stylesheets
    1. create \_document.js file inside pages folder
+   2. \_app.js edited
