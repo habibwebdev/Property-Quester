@@ -7,3 +7,6 @@
 3. Setup the stylesheets
    1. create \_document.js file inside pages folder
    2. \_app.js edited
+4. Create Layout and material ui styles
+   1. create styles.js inside util folder created root of the project
+   2. create Layout.js inside components folder created root of the project
