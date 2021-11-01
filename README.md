@@ -17,3 +17,8 @@
    1. install mongoose
    2. create User.js inside models folder created at the root of the project
    3. create Property.js inside models folder created at the root of the project
+7. Connect project with mongodb
+   1. create database inside mongodb online
+   2. create the username and get the password
+   3. connect the mongodb atlas with mongodb compass
+   4. create db.js inside utils folder
