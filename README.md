@@ -13,3 +13,7 @@
 5. Create data
    1. create data.js inside utils folder
    2. install bcryptjs
+6. Connect with mongodb
+   1. install mongoose
+   2. create User.js inside models folder created at the root of the project
+   3. create Property.js inside models folder created at the root of the project

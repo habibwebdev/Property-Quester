@@ -30,8 +30,7 @@ const data = {
       type: 'Flat',
       rating: 4.5,
       numReviews: 10,
-      countInStock: 20,
-      description: 'A popular shirt',
+      description: 'This is the description of the property',
     },
     {
       name: 'Property 2',
@@ -45,8 +44,7 @@ const data = {
       type: 'Banglow',
       rating: 4.2,
       numReviews: 10,
-      countInStock: 20,
-      description: 'A popular shirt',
+      description: 'This is the description of the property',
     },
     {
       name: 'Property 3',
@@ -58,8 +56,7 @@ const data = {
       type: 'Banglow',
       rating: 4.5,
       numReviews: 10,
-      countInStock: 20,
-      description: 'Smart looking pants',
+      description: 'This is the description of the property',
     },
     {
       name: 'Property 4',
@@ -74,8 +71,7 @@ const data = {
       type: 'Flat',
       rating: 4.5,
       numReviews: 10,
-      countInStock: 20,
-      description: 'A popular shirt',
+      description: 'This is the description of the property',
     },
   ],
 }
