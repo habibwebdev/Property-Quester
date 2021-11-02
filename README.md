@@ -22,3 +22,10 @@
    2. create the username and get the password
    3. connect the mongodb atlas with mongodb compass
    4. create db.js inside utils folder
+8. Seed the Dummy Data
+   1. create the .env file and set the local variable inside it
+   2. create the seed.js inside pages/api folder
+   3. create images folder inside public and put all the images for seeding
+   4. install next-connect
+   5. restart the server
+   6. run the http://localhost:3000/api/seed in browser to seed
