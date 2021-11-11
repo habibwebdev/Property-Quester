@@ -29,3 +29,5 @@
    4. install next-connect
    5. restart the server
    6. run the http://localhost:3000/api/seed in browser to seed
+9. Install Carousel
+   1. npm i react-material-ui-carousel

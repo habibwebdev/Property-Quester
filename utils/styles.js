@@ -22,6 +22,20 @@ const useStyles = makeStyles(
         padding: '10px 20px',
       },
     },
+    carousel: {
+      position: 'relative',
+      left: '0',
+      right: '0',
+      width: '100%',
+      height: '800px',
+      overflow: 'hidden',
+    },
+    featuredImage: {
+      position: 'absolute',
+      top: '-200px',
+      width: '100%',
+      height: 'auto',
+    },
     pZero: {
       padding: '0',
     },

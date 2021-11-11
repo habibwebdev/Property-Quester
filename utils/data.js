@@ -70,7 +70,7 @@ const data = {
       developer: 'Developer Dubai',
       category: 'Rent',
       image: '/images/p4.jpg',
-      isFeatured: true,
+      isFeatured: false,
       rentByMonth: 150,
       rentByYear: 15000,
       type: 'Flat',

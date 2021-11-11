@@ -17,10 +17,17 @@ import {
   Container,
 } from '@material-ui/core'
 import useStyles from '../utils/styles'
+import Carousel from 'react-material-ui-carousel'
 
-export default function Layout({ title, children, description }) {
+export default function Layout({
+  title,
+  children,
+  description,
+  featuredProperties,
+}) {
   const [mounted, setMounted] = useState(false)
   const [myNavbar, setMyNavbar] = useState('')
+  const [homePage, setHomePage] = useState('')
   const router = useRouter()
 
   const theme = createTheme({
@@ -50,6 +57,7 @@ export default function Layout({ title, children, description }) {
 
   useEffect(() => {
     setMounted(true)
+    setHomePage(true)
     setMyNavbar(classes.myNavbar)
   }, [])
 
@@ -138,6 +146,27 @@ export default function Layout({ title, children, description }) {
               </Toolbar>
             </Container>
           </AppBar>
+          {homePage && featuredProperties && (
+            <Carousel className={classes.carousel} animation="slide">
+              {featuredProperties.map((property) => (
+                <NextLink
+                  key={property._id}
+                  href={`/property/${property.slug}`}
+                  passHref
+                >
+                  <Link>
+                    <img
+                      src={property.featuredImage}
+                      alt={property.name}
+                      className={classes.featuredImage}
+                      // width="100%"
+                      // height="600"
+                    ></img>
+                  </Link>
+                </NextLink>
+              ))}
+            </Carousel>
+          )}
           <Container className={classes.main}>{children}</Container>
           <footer className={classes.footer}>
             <Typography>All right reserved. Property Quester.</Typography>
